@@ -1,6 +1,8 @@
 # LISTS
 
+
 ''' A list is an ordered, mutable and heterogeneous collection of elements which even allows duplicate values.'''
+
 
 ''' ---------CREATING LISTS---------'''
 # Creating an empty list...
@@ -10,19 +12,23 @@ demoList2 = [1, 2, 3, 4, 5, 6, 8, 8, 9]
 # Creating a list with mixed data types...
 demoList3 = [9, "I_LOVE_PYTHON", 3.14, True]
 
+
 '''---------ACCESSING ELEMENTS---------'''
 # Indexing starts from 0 and negative indexing is valid
 print(demoList2[3]) # Output: 4
 print(demoList3[-2]) # Output: 3.14
+
 
 '''---------LIST SLICING---------'''
 # Slicing is the extraction of selective elements from the existing list
 demoList4 = demoList2[::2] 
 print(demoList4) # Output: [1, 3, 5, 8]
 
+
 '''---------LIST MODIFICATIONS---------'''
 # Since the lists are mutable, the elements in the list are changeable
 demoList2[3] = 18 # Output: [1, 2, 3, 18, 5, 6, 8, 8, 9]
+
 
 '''---------COMMON LIST OPERATIONS---------'''
 # Adding elements to the end of the list...
@@ -52,6 +58,7 @@ demoList2.reverse()
 print(demoList2) # Output: [27, 18, 9, 8, 6, 5, 3, 1]
 # Retrieving the length of the list...
 print(len(demoList2)) # Output: 8
+
 
 '''---------LIST COMPREHENSION---------'''
 square_numbers = [num**2 for num in range(10)]
